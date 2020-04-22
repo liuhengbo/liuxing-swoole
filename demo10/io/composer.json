@@ -1,0 +1,21 @@
+{
+    "name": "hengbo/io",
+    "description": "Io",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hengbo",
+            "email": "hengbo.liu@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hengbo\\Io\\": "./src/"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    },
+    "require": {}
+}

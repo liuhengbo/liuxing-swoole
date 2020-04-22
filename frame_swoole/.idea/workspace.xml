@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/frame/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/frame/vendor/composer" />
+      <path value="$PROJECT_DIR$/frame/vendor/hengbo/swostar" />
+      <path value="/media/hengbo/_dde_data/hengbo/代码提示相关/swoole-ide-helper-master" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1a7LeMS9VnUDg7mbOPl9NkRSp9f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swocloud/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/swocloud/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frame/app/Http/Controller" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="" />
+      <created>1586081779418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586081779418</updated>
+      <workItem from="1586081780689" duration="2970000" />
+      <workItem from="1586084769737" duration="6854000" />
+      <workItem from="1586134779866" duration="10598000" />
+      <workItem from="1586526862938" duration="77000" />
+      <workItem from="1586693211780" duration="199000" />
+      <workItem from="1586693424025" duration="3765000" />
+      <workItem from="1587562170713" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="559" y="174" key="#Inspections" timestamp="1586150381275">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="559" y="174" key="#Inspections/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586150381275" />
+    <state x="555" y="98" key="#PHP" timestamp="1586082190624">
+      <screen x="0" y="0" width="3840" height="1037" />
+    </state>
+    <state x="555" y="98" key="#PHP/0.0.3840.1037@0.0.3840.1037" timestamp="1586082190624" />
+    <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586136580193">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="557" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586136580193" />
+    <state x="697" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586694964544">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="697" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586153441448" />
+    <state x="697" y="270" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1586694964544" />
+    <state x="957" y="409" key="FileChooserDialogImpl" timestamp="1586082187152">
+      <screen x="0" y="0" width="3840" height="1037" />
+    </state>
+    <state x="957" y="409" key="FileChooserDialogImpl/0.0.3840.1037@0.0.3840.1037" timestamp="1586082187152" />
+    <state x="588" y="324" key="NewPhpClassDialog" timestamp="1586695384152">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="588" y="324" key="NewPhpClassDialog/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586153253598" />
+    <state x="588" y="324" key="NewPhpClassDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1586695384152" />
+    <state x="749" y="437" width="422" height="163" key="NewPhpFileDialog" timestamp="1586693587239">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="749" y="437" key="NewPhpFileDialog/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586149476623" />
+    <state x="749" y="437" width="422" height="163" key="NewPhpFileDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1586693587239" />
+    <state x="245" y="147" key="SettingsEditor" timestamp="1586693407137">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="245" y="147" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1586693407137" />
+    <state x="490" y="147" key="SettingsEditor/0.0.3840.1037@0.0.3840.1037" timestamp="1586084750021" />
+  </component>
+</project>

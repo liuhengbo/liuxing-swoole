@@ -1,0 +1,25 @@
+{
+    "name": "hengbo/swostar-frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hengbo",
+            "email": "hengbo.liu@qq.com"
+        }
+    ],
+    "require": {
+        "hengbo/swostar": "dev-master"
+    },
+    "repositories": {
+        "hengbo": {
+            "type": "path",
+            "url": "../swostar"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "databases/"
+        }
+    }
+}

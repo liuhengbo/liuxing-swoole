@@ -1,0 +1,28 @@
+[
+    {
+        "name": "hengbo/swostar",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "../swostar",
+            "reference": "0678edf9dc7c125954754413d734ec9e0b0295d2"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SwoStar\\": "./src/"
+            },
+            "files": [
+                "./src/Supper/Helper.php"
+            ]
+        },
+        "authors": [
+            {
+                "name": "hengbo",
+                "email": "hengbo.liu@qq.com"
+            }
+        ]
+    }
+]
