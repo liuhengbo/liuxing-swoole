@@ -1,7 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="" />
+    <list default="true" id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/liuxing-swoole.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo13/MMysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo13/MMysql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/msg/msg_get_queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/msg/msg_get_queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/msg/receive.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/msg/receive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/msg/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/msg/send.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/http/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/http/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/memory/swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/memory/swoole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/swoole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-laravel/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-laravel/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/.example.env" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/.example.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/AppService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/AppService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/ExceptionHandle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/ExceptionHandle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/middleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/app/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/app/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/filesystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/filesystem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/log.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/middleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/trace.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/trace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/extend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/extend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/public/static/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/public/static/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/route/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/route/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/think" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/think" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/swoole-think/view/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/swoole-think/view/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/tcp_server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/tcp_server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo16/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo16/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo17/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo17/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo18/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo18/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo19/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo19/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo19/swoole_http_server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo19/swoole_http_server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo19/swoole_tcp_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo19/swoole_tcp_client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo20/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo20/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo20/swoole_websocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo20/swoole_websocket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo20/websocket/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo20/websocket/loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo20/websocket/loading2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo20/websocket/loading2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo21/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo21/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo22/doc.md" beforeDir="false" afterPath="$PROJECT_DIR$/../demo22/doc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frame_swoole.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frame_swoole.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/app/Http/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/Http/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/app/WebSocket/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/WebSocket/Controller/DemoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/app/WebSocket/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/WebSocket/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/app/WebSocket/Interfaces/WebSocketInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/WebSocket/Interfaces/WebSocketInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/bin/swostar.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/bin/swostar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/frame/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frame/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/config/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/config/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/route/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/route/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/route/web_socket.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/route/web_socket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/runtime/swostar.pid" beforeDir="false" afterPath="$PROJECT_DIR$/frame/runtime/swostar.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/tests/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/tests/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/tests/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/tests/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/bin/swocloud.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/bin/swocloud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Supper/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Supper/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/SwoCloud.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/SwoCloud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Config/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Config/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Console/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Console/Input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Container/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Container/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Message/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Message/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Message/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Message/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Routes/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Routes/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Rpc/Rpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Rpc/Rpc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Server/Http/HttpServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/Http/HttpServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Server/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/Server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Server/WebSocket/Connections.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/WebSocket/Connections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Server/WebSocket/WebSocketServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/WebSocket/WebSocketServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Supper/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Supper/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Supper/Inotify.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Supper/Inotify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +223,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/frame/vendor/composer" />
@@ -21,6 +234,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1a7LeMS9VnUDg7mbOPl9NkRSp9f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,16 +242,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/swocloud/src" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frame/app" />
+      <recent name="$PROJECT_DIR$/frame/app/Http/Controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/swocloud/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frame/app/Http/Controller" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -57,6 +273,8 @@
       <workItem from="1586693211780" duration="199000" />
       <workItem from="1586693424025" duration="3765000" />
       <workItem from="1587562170713" duration="28000" />
+      <workItem from="1587566844576" duration="1847000" />
+      <workItem from="1587830507639" duration="1346000" />
     </task>
     <servers />
   </component>
@@ -64,6 +282,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="141" key="#Event" timestamp="1587567385261">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="560" y="141" key="#Event/0.0.1920.1037@0.0.1920.1037" timestamp="1587567385261" />
     <state x="559" y="174" key="#Inspections" timestamp="1586150381275">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -85,11 +307,11 @@
       <screen x="0" y="0" width="3840" height="1037" />
     </state>
     <state x="957" y="409" key="FileChooserDialogImpl/0.0.3840.1037@0.0.3840.1037" timestamp="1586082187152" />
-    <state x="588" y="324" key="NewPhpClassDialog" timestamp="1586695384152">
+    <state x="588" y="324" key="NewPhpClassDialog" timestamp="1587567518082">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="588" y="324" key="NewPhpClassDialog/0.0.1920.1037/1920.0.1920.1080@0.0.1920.1037" timestamp="1586153253598" />
-    <state x="588" y="324" key="NewPhpClassDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1586695384152" />
+    <state x="588" y="324" key="NewPhpClassDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1587567518082" />
     <state x="749" y="437" width="422" height="163" key="NewPhpFileDialog" timestamp="1586693587239">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -100,5 +322,13 @@
     </state>
     <state x="245" y="147" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1586693407137" />
     <state x="490" y="147" key="SettingsEditor/0.0.3840.1037@0.0.3840.1037" timestamp="1586084750021" />
+    <state width="498" height="447" key="SwitcherDM" timestamp="1587567752330">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="498" height="447" key="SwitcherDM/0.0.1920.1037@0.0.1920.1037" timestamp="1587567752330" />
+    <state x="607" y="241" width="706" height="554" key="find.popup" timestamp="1587830820587">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="607" y="241" width="706" height="554" key="find.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1587830820587" />
   </component>
 </project>

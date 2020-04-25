@@ -246,13 +246,9 @@ abstract class Server
         $pidStr = sprintf('%s,%s',$server->master_pid,$server->manager_pid);
         file_put_contents(app()->getBasePath().$this->pidFile,$pidStr);
 
+        app('event')->trigger('onStart');
 
-        go(function (){
-            $client = new \Swoole\Coroutine\Http\Client('127.0.0.1', 9601);
-            $client->upgrade('/');
-            $client->push('/index.php');
-            $client->close();
-        });
+
 
 
         //是否启动热重启

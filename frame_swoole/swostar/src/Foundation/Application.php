@@ -3,6 +3,7 @@
 namespace SwoStar\Foundation;
 
 use SwoStar\Container\Container;
+use SwoStar\Event\Event;
 use SwoStar\Routes\Route;
 use SwoStar\Server\Http\HttpServer;
 use SwoStar\Server\WebSocket\WebSocketServer;
@@ -21,12 +22,12 @@ class Application extends Container
 
     public function __construct($path = null)
     {
-        if(!empty($path)){
+        if (!empty($path)) {
             $this->setBasePath($path);
         }
         $this->registerBaseBindings();
         $this->init();
-        dd(self::SWOSTAR_WELCOME,'启动项目');
+        dd(self::SWOSTAR_WELCOME, '启动项目');
     }
 
     /**
@@ -34,18 +35,51 @@ class Application extends Container
      */
     public function init()
     {
-        $this->bind('route',Route::getInstance()->registerRoute());
-
+        $this->bind('route', Route::getInstance()->registerRoute());
+        $this->bind('event', $this->registerEvent());
 //        dd(app('route')->getRoutes());
+
+    }
+
+    /**
+     * 注册事件
+     * @return Event
+     */
+    public function registerEvent()
+    {
+        $event = new Event();
+
+        // 1. 找到文件
+        $files = scandir($this->getBasePath(). '/app/Listener/');
+        // 2. 读取文件信息
+        foreach ($files as $key => $file) {
+            if ($file === '.' || $file === '..') {
+                continue;
+            }
+
+            // 读取文件名
+            $filename = stristr($file, ".php", true);
+
+            $class = 'App\\Listener\\' . $filename;
+            if (class_exists($class)) {
+                $listener = new $class();
+                // 注册事件
+                $event->register($listener->getName(), [$listener, 'handle']);
+            }
+            return $event;
+
+        }
+
 
     }
 
     /**
      * 启动
      */
-    public function run($arg){
+    public function run($arg)
+    {
 
-        switch ($arg[1]){
+        switch ($arg[1]) {
             case 'http:start':
                 // 启动http服务
                 $server = new HttpServer($this);
@@ -70,7 +104,7 @@ class Application extends Container
      */
     public function setBasePath($path)
     {
-        $this->basePath = rtrim($path,'\/');
+        $this->basePath = rtrim($path, '\/');
     }
 
     /**
@@ -87,15 +121,14 @@ class Application extends Container
         self::setInstance($this);
         $binds = [
             // 标识  ， 对象
-            'index'       => (new \SwoStar\Index()),
-            'httpRequest'       => (new \SwoStar\Message\Http\Request()),
-            'config'       => (new \SwoStar\Config\Config()),
+            'index' => (new \SwoStar\Index()),
+            'httpRequest' => (new \SwoStar\Message\Http\Request()),
+            'config' => (new \SwoStar\Config\Config()),
         ];
         foreach ($binds as $key => $value) {
             $this->bind($key, $value);
         }
     }
-
 
 
 }

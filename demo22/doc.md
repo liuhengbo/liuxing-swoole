@@ -23,5 +23,11 @@ swocloud -> springcloud
 
 Im-Server中onStar时像Route服务注册s
 
+## 添加一个事件
 
+在服务启动后触发事件,在事件中进行请求Route层
 
+## 事件类
+ 
+1. 注册事件
+2. 触发事件
