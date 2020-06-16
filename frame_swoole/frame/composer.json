@@ -8,7 +8,8 @@
         }
     ],
     "require": {
-        "hengbo/swostar": "dev-master"
+        "hengbo/swostar": "dev-master",
+        "ext-json": "*"
     },
     "repositories": {
         "hengbo": {

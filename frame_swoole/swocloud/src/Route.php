@@ -3,10 +3,13 @@
 
 namespace SwoCloud;
 
+use Swoole\Server as SwooleServer;
+use Swoole\WebSocket\Frame;
 use Swoole\WebSocket\Server as SwooleWebSocketServer;
 use SwoStar\Console\Input;
 use Swoole\Http\Request as SwooleRequest;
 use Swoole\Http\Response as SwooleResponse;
+use Redis;
 /**
  * WebSocket
  * Class Route
@@ -14,6 +17,29 @@ use Swoole\Http\Response as SwooleResponse;
  */
 class Route extends Server
 {
+
+    protected $distribute = null;
+
+    protected $serverKey = 'im-server';
+
+    /**
+     * 获取服务期的算法
+     * @var string
+     */
+    protected $arithmetic = 'round';
+
+    public $redis = null;
+    public $redisHost = '127.0.0.1';
+    public $redisPort = '6379';
+
+
+    /**
+     * @return string
+     */
+    public function getArithmetic(): string
+    {
+        return $this->arithmetic;
+    }
 
     /**
      * @inheritDoc
@@ -36,10 +62,19 @@ class Route extends Server
         ]);
     }
 
-
-    public function onMessage(SwooleWebSocketServer $server,$frame)
+    public function onWorkerStart(SwooleServer $server, int $worker_id)
     {
-        dd('onMessage');
+        $this->redis = new Redis();
+        $this->redis->pconnect($this->redisHost,$this->redisPort);
+    }
+
+    public function onMessage(SwooleWebSocketServer $server,Frame $frame)
+    {
+        $data = json_decode($frame->data,true);
+        $fd = $frame->fd;
+
+        $this->getDistribute()->{$data['method']}($this,$server,...[$fd,$data]);
+
     }
     public function onClose(SwooleWebSocketServer $server,$fd)
     {
@@ -52,9 +87,48 @@ class Route extends Server
 
     }
 
+    /**
+     * @return null
+     */
+    public function getDistribute()
+    {
+        if(!$this->distribute){
+            $this->distribute = new Distribute();
+        }
+        return $this->distribute;
+    }
+
+    /**
+     * 获取redis对象
+     * @return Redis
+     */
+    public function getInstanceRedis()
+    {
+        return $this->redis;
+    }
+
+    /**
+     * @return string
+     */
+    public function getServerKey(): string
+    {
+        return $this->serverKey;
+    }
+
 
     public function onRequest(SwooleRequest $request,SwooleResponse $response)
     {
+        if ($request->server['path_info'] == '/favicon.ico' || $request->server['request_uri'] == '/favicon.ico') {
+            $response->end();
+            return;
+        }
+
+        $response->header('Access-Control-Allow-Origin','*');
+        $response->header('Access-Control-Allow-Methods','GET,POST');
+
+        $this->getDistribute()->{$request->post['method']}($this, $request,$response);
+
+
     }
 
 

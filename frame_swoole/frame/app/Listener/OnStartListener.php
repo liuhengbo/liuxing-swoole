@@ -4,6 +4,7 @@
 namespace App\Listener;
 
 
+use Swoole\Coroutine\Http\Client;
 use SwoStar\Event\Listener;
 
 class OnStartListener extends Listener
@@ -14,7 +15,7 @@ class OnStartListener extends Listener
     public function handle()
     {
         go(function () {
-            $client = new \Swoole\Coroutine\Http\Client('127.0.0.1', 9601);
+            $client = new Client('127.0.0.1', 9601);
             // 判断升级WebSocket是否成功
             if ($client->upgrade('/')) {
 
@@ -29,7 +30,7 @@ class OnStartListener extends Listener
 
                 // 设置定时器像服务器发送心跳信息
                 swoole_timer_tick(3000,function () use ($client){
-                    $client->push(1);
+                    $client->push('',WEBSOCKET_OPCODE_PING);
                 });
 //                $client->close();
             }
