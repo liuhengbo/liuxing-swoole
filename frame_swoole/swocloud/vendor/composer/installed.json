@@ -6,7 +6,7 @@
         "dist": {
             "type": "path",
             "url": "../swostar",
-            "reference": "0678edf9dc7c125954754413d734ec9e0b0295d2"
+            "reference": "dcc30f4075f1cce75011f2e2a299f2adebf3a463"
         },
         "type": "library",
         "installation-source": "dist",

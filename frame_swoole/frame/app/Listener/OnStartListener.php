@@ -15,6 +15,7 @@ class OnStartListener extends Listener
     {
         go(function () {
             $client = new \Swoole\Coroutine\Http\Client('127.0.0.1', 9601);
+
             // 判断升级WebSocket是否成功
             if ($client->upgrade('/')) {
 
@@ -24,6 +25,7 @@ class OnStartListener extends Listener
                     'serverName' => 'im1',
                     'method' => 'register',
                 ];
+                debugEcho("向Route发送自己的信息");
                 // 发送注册自己的服务器信息
                 $client->push(json_encode($data,JSON_UNESCAPED_UNICODE));
 
