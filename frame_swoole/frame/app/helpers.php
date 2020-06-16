@@ -7,6 +7,6 @@
 function debugEcho($message){
     $env = 'local';
     if($env == 'local'){
-        echo $message;
+        echo $message . "\n";
     }
 }

@@ -4,6 +4,7 @@
 namespace SwoCloud;
 
 use Swoole\Server as SwooleServer;
+use Redis;
 
 abstract class Server
 {
@@ -46,6 +47,10 @@ abstract class Server
     protected $config = [
         'task_worker_num' => 0,
     ];
+    /**
+     * @var Redis
+     */
+    public $redis;
 
     /**
      * 设置事件
@@ -196,6 +201,11 @@ abstract class Server
     }
     public function onWorkerStart(SwooleServer $server, int $worker_id)
     {
+
+        // 注册每个进程下的redis连接
+        $this->redis = new Redis();
+        $this->redis->pconnect('127.0.0.1',6379);
+
     }
     public function onWorkerStop(SwooleServer $server, int $worker_id)
     {

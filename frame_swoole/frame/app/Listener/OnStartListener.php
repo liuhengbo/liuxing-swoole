@@ -25,6 +25,7 @@ class OnStartListener extends Listener
                     'serverName' => 'im1',
                     'method' => 'register',
                 ];
+                debugEcho("向Route发送自己的信息");
                 // 发送注册自己的服务器信息
                 $client->push(json_encode($data,JSON_UNESCAPED_UNICODE));
 
