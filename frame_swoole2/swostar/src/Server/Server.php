@@ -58,7 +58,7 @@ abstract class Server
      * 端口
      * @var string
      */
-    protected $port = '9501';
+    protected $port = '9502';
 
     /**
      * @var string

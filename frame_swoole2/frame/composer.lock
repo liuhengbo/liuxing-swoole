@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2054595dffe85ae1eaddcfc8dcc2b3c6",
+    "packages": [
+        {
+            "name": "hengbo/swostar",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../swostar",
+                "reference": "dcc30f4075f1cce75011f2e2a299f2adebf3a463"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SwoStar\\": "./src/"
+                },
+                "files": [
+                    "./src/Supper/Helper.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "hengbo",
+                    "email": "hengbo.liu@qq.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hengbo/swostar": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

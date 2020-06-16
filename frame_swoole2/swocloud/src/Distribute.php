@@ -30,7 +30,7 @@ class Distribute
         $serverKey = $route->getServerKey();
         $redis = $route->getInstanceRedis();
         $redis->sadd($serverKey,$value);
-        echo "服务器".$value."已注册,fd值为:".$fd;
+
         // 增加定时器判断连接还是否存活
         $server->tick(3000,function ($timer_id) use ($data, $value, $serverKey, $fd, $server, $redis){
             if(!$server->exist($fd)){

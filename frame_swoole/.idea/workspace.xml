@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frame/app/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swocloud/src/Dispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/app/Listener/OnStartListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/app/Listener/OnStartListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/frame/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frame/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/frame/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/src/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/src/Supper/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Supper/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/runtime/swostar.pid" beforeDir="false" afterPath="$PROJECT_DIR$/frame/runtime/swostar.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Distribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Distribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swostar/src/Server/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/Server.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frame_swoole2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -104,7 +97,7 @@
       <workItem from="1591528074776" duration="58000" />
       <workItem from="1591528949193" duration="611000" />
       <workItem from="1591529585021" duration="1424000" />
-      <workItem from="1592314940740" duration="533000" />
+      <workItem from="1592314940740" duration="7296000" />
     </task>
     <servers />
   </component>
@@ -153,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="712" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1037@0.0.1920.1037" timestamp="1591530296335" />
-    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl" timestamp="1589700334943">
+    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl" timestamp="1592322514414">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1589700334943" />
+    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1592322514414" />
     <state x="957" y="409" key="FileChooserDialogImpl/0.0.3840.1037@0.0.3840.1037" timestamp="1586082187152" />
     <state x="0" y="0" width="1920" height="1037" key="MergeDialog" timestamp="1592315472426">
       <screen x="0" y="0" width="1920" height="1037" />
@@ -185,17 +178,17 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="498" height="447" key="SwitcherDM/0.0.1920.1037@0.0.1920.1037" timestamp="1587567752330" />
-    <state x="607" y="241" width="706" height="554" key="find.popup" timestamp="1588866679432">
+    <state x="607" y="241" width="706" height="554" key="find.popup" timestamp="1592321413849">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="607" y="241" width="706" height="554" key="find.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1588866679432" />
+    <state x="607" y="241" width="706" height="554" key="find.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1592321413849" />
     <state x="594" y="305" width="723" height="439" key="git4idea.merge.GitPullDialog" timestamp="1592315003295">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="594" y="305" width="723" height="439" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1592315003295" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1589711725257">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1592320339657">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1589711725257" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1037@0.0.1920.1037" timestamp="1592320339657" />
   </component>
 </project>

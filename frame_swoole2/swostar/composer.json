@@ -1,0 +1,19 @@
+{
+    "name": "hengbo/swostar",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hengbo",
+            "email": "hengbo.liu@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SwoStar\\":"./src/"
+        },
+        "files": [
+            "./src/Supper/Helper.php"
+        ]
+    }
+}
