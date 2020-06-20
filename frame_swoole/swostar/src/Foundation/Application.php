@@ -22,12 +22,14 @@ class Application extends Container
 
     public function __construct($path = null)
     {
+
+        // 设置项目总路径
         if (!empty($path)) {
             $this->setBasePath($path);
         }
         $this->registerBaseBindings();
         $this->init();
-        dd(self::SWOSTAR_WELCOME, '启动项目');
+        echoTips(self::SWOSTAR_WELCOME);
     }
 
     /**
@@ -37,7 +39,6 @@ class Application extends Container
     {
         $this->bind('route', Route::getInstance()->registerRoute());
         $this->bind('event', $this->registerEvent());
-//        dd(app('route')->getRoutes());
 
     }
 
@@ -83,18 +84,15 @@ class Application extends Container
             case 'http:start':
                 // 启动http服务
                 $server = new HttpServer($this);
-                $server->start();
                 break;
             case 'ws:start':
                 // 启动webSocket服务
                 $server = new WebSocketServer($this);
-                $server->start();
                 break;
             default:
                 $server = new HttpServer($this);
 
         }
-
         $server->start();
     }
 

@@ -1,0 +1,12 @@
+{
+    "name": "hengbo/plugins",
+    "authors": [
+        {
+            "name": "hengbo",
+            "email": "hengbo.liu@qq.com"
+        }
+    ],
+    "require": {
+        "eaglewu/swoole-ide-helper": "dev-english"
+    }
+}

@@ -19,6 +19,7 @@ class Arithmetic
             self::$currentIndex = 0;
         }else{
             self::$currentIndex++;
+
         }
 
         return $list[self::$currentIndex];

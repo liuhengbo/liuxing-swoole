@@ -93,7 +93,8 @@ abstract class Server
     public function __construct(Application $app)
     {
         $this->app = $app;
-
+        // 初始化配置
+        $this->initSetting();
         // 注册事件
 
         // 创建服务
@@ -102,8 +103,6 @@ abstract class Server
         $this->swooleServer->set($this->config);
         // 回调函数
         $this->initEvent();
-        // 配置
-        $this->initSetting();
         // 注册事件
         $this->registerSwooleEvent();
 
@@ -115,8 +114,8 @@ abstract class Server
     public function initSetting()
     {
         $config = app('config');
-        $this->port = $config->get('http.port');
-        $this->port = $config->get('http.host');
+        $this->port = $config->get('server.http.port');
+        $this->host = $config->get('server.http.host');
     }
 
     /**
@@ -245,9 +244,7 @@ abstract class Server
         $pidStr = sprintf('%s,%s',$server->master_pid,$server->manager_pid);
         file_put_contents(app()->getBasePath().$this->pidFile,$pidStr);
 
-        app('event')->trigger('onStart');
-
-
+        app('event')->trigger('onStart',[$this]);
 
 
         //是否启动热重启

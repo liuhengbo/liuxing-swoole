@@ -12,7 +12,7 @@ abstract class Listener
      */
     protected $name = 'listener';
 
-    public abstract function handle();
+    public abstract function handle($params);
 
     public function getName()
     {

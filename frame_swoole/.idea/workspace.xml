@@ -7,9 +7,92 @@
     <list default="true" id="ce5897e2-00cc-4de0-8faf-315ad1aa9341" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frame/runtime/swostar.pid" beforeDir="false" afterPath="$PROJECT_DIR$/frame/runtime/swostar.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/src/Dispatcher.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swocloud/src/Distribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Distribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swostar/src/Server/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/swostar/src/Server/Server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swocloud/src/Supper/Arithmetic.php" beforeDir="false" afterPath="$PROJECT_DIR$/swocloud/src/Supper/Arithmetic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/client/websocket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/Http/Controller/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/Listener/OnStartListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/WebSocket/Controller/DemoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/WebSocket/Controller/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/WebSocket/Interfaces/WebSocketInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/app/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/bin/swostar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/config/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/route/http.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/route/web_socket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/runtime/swostar.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/tests/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/tests/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/frame/vendor/hengbo/swostar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/bin/swocloud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/Distribute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/Server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/Supper/Arithmetic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/Supper/Helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/src/SwoCloud.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/src/BeforeValidException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/src/ExpiredException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/src/JWK.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/src/JWT.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/firebase/php-jwt/src/SignatureInvalidException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swocloud/vendor/hengbo/swostar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Config/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Console/Input.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Container/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Event/Event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Event/Listener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Foundation/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Message/Http/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Message/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Routes/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Rpc/Rpc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/Http/HttpServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/Server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/Udp/WebSocket/Connections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/Udp/WebSocket/WebSocketServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/WebSocket/Connections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Server/WebSocket/WebSocketServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Supper/Helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/src/Supper/Inotify.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame_swoole2/swostar/vendor/composer/autoload_static.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +180,8 @@
       <workItem from="1591528074776" duration="58000" />
       <workItem from="1591528949193" duration="611000" />
       <workItem from="1591529585021" duration="1424000" />
-      <workItem from="1592314940740" duration="7296000" />
+      <workItem from="1592314940740" duration="7639000" />
+      <workItem from="1592630828876" duration="395000" />
     </task>
     <servers />
   </component>
@@ -146,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="712" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1037@0.0.1920.1037" timestamp="1591530296335" />
-    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl" timestamp="1592322514414">
+    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl" timestamp="1592631222819">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1592322514414" />
+    <state x="479" y="409" width="426" height="496" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1592631222819" />
     <state x="957" y="409" key="FileChooserDialogImpl/0.0.3840.1037@0.0.3840.1037" timestamp="1586082187152" />
     <state x="0" y="0" width="1920" height="1037" key="MergeDialog" timestamp="1592315472426">
       <screen x="0" y="0" width="1920" height="1037" />
