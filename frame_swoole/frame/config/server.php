@@ -22,6 +22,12 @@ return [
     ],
     "ws"=>[
         'is_handshake' => false
+    ],
+    "route_jwt"=>[
+        'key'=>'swocloud',
+        'allowed_algs'=>[
+            'HS256'
+        ],
     ]
 
 ];

@@ -9,7 +9,8 @@
     ],
     "require": {
         "hengbo/swostar": "dev-master",
-        "ext-json": "*"
+        "ext-json": "*",
+        "firebase/php-jwt": "^5.2"
     },
     "repositories": {
         "hengbo": {

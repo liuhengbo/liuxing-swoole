@@ -3,6 +3,7 @@
 
 namespace SwoCloud;
 
+use Config\ServerConfig;
 use Firebase\JWT\JWT;
 use SwoCloud\Supper\Arithmetic;
 use Swoole\Http\Request;
@@ -87,7 +88,8 @@ class Distribute
      */
     public function getImToken($uid,$url)
     {
-        $key = "swocloud";
+        $route_jwt = ServerConfig::ROUTE_JWT;
+        $key = $route_jwt['key'];
         $time = time();
         $payload = array(
             "iss" => "http://example.org",

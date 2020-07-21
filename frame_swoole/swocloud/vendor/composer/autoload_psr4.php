@@ -9,4 +9,5 @@ return array(
     'SwoStar\\' => array($vendorDir . '/hengbo/swostar/src'),
     'SwoCloud\\' => array($baseDir . '/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
+    'Config\\' => array($baseDir . '/config'),
 );
