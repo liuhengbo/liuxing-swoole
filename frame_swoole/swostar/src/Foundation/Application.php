@@ -67,9 +67,9 @@ class Application extends Container
                 // 注册事件
                 $event->register($listener->getName(), [$listener, 'handle']);
             }
-            return $event;
-
         }
+
+        return $event;
 
 
     }

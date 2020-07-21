@@ -24,12 +24,29 @@ class WebSocketServer extends HttpServer
 
     public function initEvent()
     {
-        $this->setEvent('sub',[
-           'request'=>'onRequest',
-           'message'=>'onMessage',
-           'close'=>'onClose',
-           'open'=>'onOpen',
-        ]);
+        $event = [
+            'request'=>'onRequest',
+            'message'=>'onMessage',
+            'close'=>'onClose',
+            'open'=>'onOpen',
+        ];
+        // 判断是否自定义握手过程
+        ($this->app->make('config')->get('server.ws.is_handshake')) ?: $event['handshake'] = 'onHandshake';
+
+        $this->setEvent('sub',$event);
+
+
+
+    }
+
+    /**
+     * 建立连接后进行握手。WebSocket 服务器会自动进行 handshake 握手的过程
+     * @param \Swoole\Http\Request $request
+     * @param \Swoole\Http\Response $response
+     */
+    public function onHandshake(\Swoole\Http\Request $request, \Swoole\Http\Response $response)
+    {
+        $this->app->make('event')->trigger('ws.handshake',[$this,$request,$response]);
     }
 
 

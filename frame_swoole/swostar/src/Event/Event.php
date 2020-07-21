@@ -35,7 +35,7 @@ class Event
         if (isset($this->events[$event])){
             return ($this->events[$event]['callback'])(...$params);
         }
-        dd('事件不存在');
+        dd('事件'.$event.'不存在');
     }
 
     /**

@@ -19,7 +19,9 @@ return [
     'route_http'=>[
         'host'=>'127.0.0.1',
         'port'=>'9601',
+    ],
+    "ws"=>[
+        'is_handshake' => false
     ]
-
 
 ];
