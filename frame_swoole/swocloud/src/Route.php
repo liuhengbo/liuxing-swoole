@@ -3,6 +3,7 @@
 
 namespace SwoCloud;
 
+use Config\ServerConfig;
 use Swoole\Server as SwooleServer;
 use Swoole\WebSocket\Frame;
 use Swoole\WebSocket\Server as SwooleWebSocketServer;
@@ -32,6 +33,7 @@ class Route extends Server
     public $redis = null;
     public $redisHost = '127.0.0.1';
     public $redisPort = '6379';
+    public $redisPassword = '';
 
 
     /**
@@ -65,8 +67,12 @@ class Route extends Server
 
     public function onWorkerStart(SwooleServer $server, int $worker_id)
     {
+        $this->redisHost = ServerConfig::REDIS_CONFIG['host'];
+        $this->redisPort = ServerConfig::REDIS_CONFIG['port'];
+        $this->redisPassword = ServerConfig::REDIS_CONFIG['password'];
         $this->redis = new Redis();
         $this->redis->pconnect($this->redisHost,$this->redisPort);
+        $this->redis->auth($this->redisPassword);
     }
 
     public function onMessage(SwooleWebSocketServer $server,Frame $frame)
