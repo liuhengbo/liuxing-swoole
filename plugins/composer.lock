@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ca2237f6e2def7e4ff3c8efce3df169",
-    "packages": [
+    "content-hash": "2b28bc17ab0e8394ec36146f8e27f491",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "eaglewu/swoole-ide-helper",
-            "version": "dev-english",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wudi/swoole-ide-helper.git",
-                "reference": "49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1"
+                "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1",
-                "reference": "49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1",
+                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
+                "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -25,6 +26,9 @@
                         "preferred": true
                     }
                 ]
+            },
+            "require": {
+                "php": ">=7.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -50,10 +54,9 @@
                 "sublime",
                 "swoole"
             ],
-            "time": "2019-01-25T04:12:27+00:00"
+            "time": "2020-07-14T13:36:33+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {

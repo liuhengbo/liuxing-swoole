@@ -1,17 +1,17 @@
 [
     {
         "name": "eaglewu/swoole-ide-helper",
-        "version": "dev-english",
-        "version_normalized": "dev-english",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/wudi/swoole-ide-helper.git",
-            "reference": "49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1"
+            "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1",
-            "reference": "49ffb35bc89dbf49ce3f7a5f3ea1e560d7f72bc1",
+            "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
+            "reference": "e9e0575b6acb5eb1cd8af3fa7b292eb57ec88497",
             "shasum": "",
             "mirrors": [
                 {
@@ -20,7 +20,10 @@
                 }
             ]
         },
-        "time": "2019-01-25T04:12:27+00:00",
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2020-07-14T13:36:33+00:00",
         "type": "library",
         "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
