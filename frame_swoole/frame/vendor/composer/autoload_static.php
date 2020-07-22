@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitde3d69857893cc3b6fd80328f3dd3cd0
+class ComposerStaticInit9d630b1df1ed9dc5981984d73a836ce4
 {
     public static $files = array (
         '4f7cdc70f27ab42f61459b8f59a6c796' => __DIR__ . '/..' . '/hengbo/swostar/src/Supper/Helper.php',
@@ -52,8 +52,8 @@ class ComposerStaticInitde3d69857893cc3b6fd80328f3dd3cd0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitde3d69857893cc3b6fd80328f3dd3cd0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitde3d69857893cc3b6fd80328f3dd3cd0::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9d630b1df1ed9dc5981984d73a836ce4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9d630b1df1ed9dc5981984d73a836ce4::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
