@@ -18,6 +18,7 @@ use Redis;
 class Route extends Server
 {
 
+
     protected $distribute = null;
 
     protected $serverKey = 'im-server';
