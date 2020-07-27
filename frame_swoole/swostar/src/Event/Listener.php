@@ -4,6 +4,8 @@
 namespace SwoStar\Event;
 
 
+use SwoStar\Foundation\Application;
+
 abstract class Listener
 {
     /**
@@ -11,6 +13,13 @@ abstract class Listener
      * @var string
      */
     protected $name = 'listener';
+    
+    protected $app;
+
+    public function __construct(Application $app)
+    {
+        $this->app =$app;
+    }
 
     public abstract function handle($params);
 

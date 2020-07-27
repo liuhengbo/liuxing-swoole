@@ -63,7 +63,7 @@ class Application extends Container
 
             $class = 'App\\Listener\\' . $filename;
             if (class_exists($class)) {
-                $listener = new $class();
+                $listener = new $class($this);
                 // 注册事件
                 $event->register($listener->getName(), [$listener, 'handle']);
             }

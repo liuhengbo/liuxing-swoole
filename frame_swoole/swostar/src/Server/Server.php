@@ -3,6 +3,7 @@
 
 namespace SwoStar\Server;
 
+use Redis;
 use Swoole\Server as SwooleServer;
 use SwoStar\Foundation\Application;
 use SwoStar\Rpc\Rpc;
@@ -64,6 +65,8 @@ abstract class Server
      * @var string
      */
     protected $host = '0.0.0.0';
+    
+    protected $redis;
 
     protected $app = null;
 
@@ -273,6 +276,11 @@ abstract class Server
             'id'  => $worker_id,
             'pid' => $server->worker_id
         ];
+        $config = $this->app->make('config');
+        $this->redis = new Redis();
+        $this->redis->auth($config->get('database.redis.password'));
+        $this->redis->pconnect($config->get('database.redis.host'),$config->get('database.redis.port'));
+
     }
     public function onWorkerStop(SwooleServer $server, int $worker_id)
     {
@@ -286,6 +294,15 @@ abstract class Server
     public function setWatchFile($status)
     {
         $this->watchFile = $status;
+    }
+
+    /**
+     * 获取一个redis链接
+     * @return mixed
+     */
+    public function getRedis()
+    {
+        return $this->redis;
     }
 
 

@@ -37,11 +37,12 @@ class HandshakeListener extends Listener
     public function check($token)
     {
         // 1.认证
-        $route_jwt = app('config')->get('route_jwt');
+        $route_jwt = app('config')->get('server.route_jwt');
+
         $key = $route_jwt['key'];
         $allowed_algs = $route_jwt['allowed_algs'];
-        JWT::decode($token,$key,$allowed_algs);
-
+        $res = JWT::decode($token,$key,$allowed_algs);
+        var_dump($res);
         // 2. 存储信息到redis中
     }
 
